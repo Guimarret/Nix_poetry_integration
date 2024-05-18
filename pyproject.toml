@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "sunday-test"
+version = "0.1.0"
+description = "Just playing with nix"
+authors = ["Guimarret <guimarret@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
